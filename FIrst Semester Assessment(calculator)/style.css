@@ -1,0 +1,70 @@
+body{
+    background-color: #131212;
+    height: 100%;
+    margin: 0;
+}
+.base_container{
+    background-color: #FFFFFF;
+    width: 1728px;
+    height: 1117px;
+    margin-top: calc(25% - 558.5px);
+    margin-left: calc(50% - 864px);
+    position: relative;
+
+}
+.calculator_container{
+    background-color: #242530; 
+    width: 400px;
+    height: 367px;
+    margin-top: calc(35% - 183.5px);
+    margin-left: calc(50% - 200px);
+    position: absolute;
+}
+.input_field{
+    background-color: #4e5381;
+    width: 350px;
+    height: 70px;
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+#btn_row {
+    display: flex;
+    gap: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.btns{
+    font-family:rgb(255, 255, 255) ;
+    width: 54px;
+    height: 35px;
+    border-style: none;
+    border-radius: 22px;
+    background-color: #5a5c7e;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+#sign_btns{
+    background-color: rgb(241, 173, 47);
+    width: 47px;
+    height: 37.5px;
+    border-radius: 50%; /* Make it a circle */
+    
+                       
+}
+
+#equal_btn{
+    width: 50px;
+    height: 38.6px;
+    background-color: rgb(194, 194, 194);
+    color: black;
+    font-size: 30px;
+
+}
